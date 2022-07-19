@@ -16,6 +16,7 @@ export default function SubHeader () {
 
   const renderOpen = useCallback(() => {
     const today = dayjs();
+    console.log(today);
     const day = today.day()
     const days = [
       "Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"

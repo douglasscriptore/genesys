@@ -12,6 +12,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 480px){
+    padding: 0 1rem;
+  }
 }
 
 .phoneContent {
@@ -31,8 +35,8 @@
 }
 
 .openHouseContent {
-  display: flex;
-  align-items: center;
+  display: block;
+  // align-items: center;
   color: var(--white);
   font: 300 0.8rem "Roboto", sans-serif;
   svg{
@@ -61,5 +65,7 @@
       }
     }
   }
+
+  
 
 }

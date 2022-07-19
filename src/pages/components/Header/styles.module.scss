@@ -15,7 +15,8 @@
 
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
+  
   img{
     width: 15rem;
   }
@@ -56,6 +57,12 @@
         left: 0;
         background-color: var(--orange-500);
       }
+    }
+  }
+
+  @media (max-width: 720px){
+    nav {
+      display: none;
     }
   }
 }

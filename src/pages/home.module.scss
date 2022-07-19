@@ -7,6 +7,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 480px){
+    padding: 0 1rem;
+  }
 }
 
 .hero {
@@ -42,5 +46,12 @@
 
   button{ 
     margin-top: 2.5rem;
+  }
+
+  @media (max-width: 480px){
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
   }
 }
