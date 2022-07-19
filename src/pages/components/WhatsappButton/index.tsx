@@ -5,7 +5,7 @@ import styles from "./styles.module.scss"
 export default function WhatsappButton(){
 
   const handleOpenWhatssapp = useCallback(() => {
-    window.open("https://wa.me/+5544991040870","_blank")
+    window.open("https://wa.me/+5544998711508","_blank")
   },[])
 
   return (
